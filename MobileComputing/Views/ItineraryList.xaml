@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+                x:Class="MobileComputing.Views.ItineraryList" 
+                Icon=""
+                Title="Trip">
+    <ContentPage.ToolbarItems>
+<!--        <ToolbarItem Name="Menu1" Activated="OnClick"  Order="Primary" Priority="0" />-->
+        <ToolbarItem Name="+" Activated="Handle_Clicked"  Order="Primary" Priority="1" />
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout Padding="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+            </Grid>
+            
+            
+            
+            
+            
+            
+            
+            
+            <ListView>
+<!--                Insert Data Binding HERE-->
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

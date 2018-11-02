@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MobileComputing.Views.BucketAdd">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    
+                    <Label Text="Location Name:" />
+                    <Entry Placeholder="e.g Brithon Beach"
+                           Text=""/>
+                    
+                    <Label Text="Destination Address:" />
+                    <Entry Placeholder="e.g 23, Brisbane CBD 4000.."
+                           Text=""/>
+                    
+                    <Label Text="Hours Plan To spend:" />
+                    <Entry Placeholder="2 hours"
+                           Text=""/>
+                    
+                    <Label Text="Budget For This Activities:"/>
+                    <Entry Placeholder="$"
+                           Text=""/>
+                    
+                    <Label Text="Your Nick Name"/>
+                    <Entry Placeholder="Jocyy"
+                           Text=""/>
+                    
+                    <Button Text="Add"
+                            HeightRequest="50"
+                            HorizontalOptions="FillAndExpand"
+                            Clicked="Handle_Clicked"/>
+
+                   <Button Text="Cancel"
+                           HeightRequest="50"
+                           HorizontalOptions="FillAndExpand"
+                           Clicked="Handle_Clicked"
+                           />
+                    
+                    
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            xmlns:local="clr-namespace:MobileComputing.Views" 
+            x:Class="MobileComputing.Views.MainPage">
+    <NavigationPage>
+        <x:Arguments>
+            <local:ItineraryList></local:ItineraryList>
+        </x:Arguments>
+    </NavigationPage>
+    
+    <NavigationPage>
+        <x:Arguments>
+            <local:BucketList></local:BucketList>
+        </x:Arguments>
+    </NavigationPage>
+    
+    <NavigationPage>
+        <x:Arguments>
+            <local:BucketList></local:BucketList>
+        </x:Arguments>
+    </NavigationPage>
+        
+</TabbedPage>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MobileComputing.Views.ItineraryAdd">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    
+                    <Label Text="Let's Name Yout Trip" />
+                    <Entry Placeholder="Any Name"
+                           Text=""/>
+                    
+                    <Label Text="Start Trip:" />
+                    <DatePicker x:Name="startDatePicker"
+                                Format="d"
+                                Margin="30,0,0,30"
+                                />
+                    
+                    <Label Text="End Trip:"/>
+                    <DatePicker x:Name="endDatePicker"
+                                Format="d"
+                                Margin="30,0,0,30"
+                                />
+                                
+<!--                                DateSelected=""-->
+                    
+                    <Label Text="Your Destination:"/>
+                    <Entry Placeholder="Country,State,Citiess"
+                           Text=""/>
+                    
+                    <Label Text="Your Budget:"/>
+                    <Entry Placeholder="$"
+                           Text=""/>
+                    
+                    <Button Text="Add"
+                            HeightRequest="50"
+                            HorizontalOptions="FillAndExpand"
+                            Clicked="Handle_Clicked"/>
+
+                   <Button Text="Cancel"
+                           HeightRequest="50"
+                           HorizontalOptions="FillAndExpand"
+                           Clicked="Handle_Clicked"/>
+                    
+                    
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
